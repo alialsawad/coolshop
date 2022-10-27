@@ -1,5 +1,5 @@
-import { Action, Data, RowState, State } from 'Data/Types'
-import { ACTIONS } from '../Data/Actions'
+import { Action, Data, RowState, State } from 'data/Types'
+import { ACTIONS } from '../data/Actions'
 import { useCallback, useMemo, useReducer } from 'react'
 
 const reducer = (state: State, action: Action) => {

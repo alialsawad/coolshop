@@ -1,4 +1,4 @@
-import { Data, RowState } from 'Data/Types'
+import { Data, RowState } from 'data/Types'
 import React from 'react'
 import { Button } from './components/Button/Button'
 import { Row } from './components/Row/Row'

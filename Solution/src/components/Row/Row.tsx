@@ -3,7 +3,7 @@ import { Input, Select } from '../Inputs/Inputs'
 import { Button } from '../Button/Button'
 // @ts-ignore
 import styles from './Row.module.css'
-import { RowProps } from 'Data/Types'
+import { RowProps } from 'data/Types'
 
 export const Row = ({ deleteRow, updateRow, value, sign, active }: RowProps) => {
   return (

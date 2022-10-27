@@ -2,7 +2,7 @@ import React from 'react'
 import { classes } from '../../utils/style'
 // @ts-ignore
 import styles from './Button.module.css'
-import { ButtonProps } from 'Data/Types'
+import { ButtonProps } from 'data/Types'
 import { Icon } from '../Icon/Icon'
 
 export const Button = ({ children, iconName, action, className = '', ...rest }: ButtonProps) => {

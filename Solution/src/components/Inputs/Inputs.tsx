@@ -1,4 +1,4 @@
-import { InputProps, SelectProps } from 'Data/Types'
+import { InputProps, SelectProps } from 'data/Types'
 import React from 'react'
 import { classes } from '../../utils/style'
 // @ts-ignore
